@@ -1,0 +1,48 @@
+nav {
+    background: linear-gradient(135deg, #480080, #9600FA);
+    height: 10%;
+    width: 100%;
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+footer {
+    background: linear-gradient(135deg, #480080, #9600FA);
+    height: 5%;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+main {
+    gap: 5%;
+}
+
+.casa {
+    background-color: #d4d4d4;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.casa article{
+    width: 90%;
+    height: 45%;
+}
+
+.comodo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.comodo:hover {
+    transform: scale(1.05);
+    transition: transform .3s ease-in-out;
+}
